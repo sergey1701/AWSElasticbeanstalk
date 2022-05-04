@@ -2,7 +2,7 @@
 
 name: CI-CD-Pipeline-to Elasicbeastalk
 env:
-  EB_PACKAGE_S3_BUCKET_NAME: "elasticbeanstalk-eu-central-1-758059717204"
+  EB_PACKAGE_S3_BUCKET_NAME: "arn:aws:s3:::test-application-flask"
   EB_APPLICATION_NAME      : "MyFlask"
   EB_ENVIROMENT_NAME       : "Myflask-env"
   DEPLOY_PACKAGE_NAME      : "flask_app_${{ github.sha }}.zip"
